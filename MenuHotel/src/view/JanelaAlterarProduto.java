@@ -184,18 +184,18 @@ public class JanelaAlterarProduto extends JFrame {
 		JButton btnSalvar = new JButton("SALVAR");
 		btnSalvar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				produtoSelecionado.setNome(txtNome.getText());
-				produtoSelecionado.setDescricao(txtDescricao.getText());
-				produtoSelecionado.setPreco(txtPreco.getText());
-				produtoSelecionado.setCategoria(txtCategoria.getText());
-				produtoSelecionado.setIngredientes(txtIngredientes.getText());
-				produtoSelecionado.setAlergenicos(txtAlergenicos.getText());
-				produtoSelecionado.setDisponibilidade(txtDisponibilidade.getText());
-				produtoSelecionado.setAcucar(txtTeorAcucar.getText());
-				produtoSelecionado.setGordura(txtTeorGordura.getText());
-				produtoSelecionado.setCalorias(txtCalorias.getText());
+				//produtoSelecionado.setNome(txtNome.getText());
+				//produtoSelecionado.setDescricao(txtDescricao.getText());
+			//	produtoSelecionado.setPreco(txtPreco.getText());
+				//produtoSelecionado.setCategoria(txtCategoria.getText());
+				//produtoSelecionado.setIngredientes(txtIngredientes.getText());
+				//produtoSelecionado.setAlergenicos(txtAlergenicos.getText());
+				//produtoSelecionado.setDisponibilidade(txtDisponibilidade.getText());
+				//produtoSelecionado.setAcucar(txtTeorAcucar.getText());
+			//	produtoSelecionado.setGordura(txtTeorGordura.getText());
+			//	produtoSelecionado.setCalorias(txtCalorias.getText());
 				
-				janela.atualizarDadosProduto(produtoSelecionado);
+			//	janela.atualizarDadosProduto(produtoSelecionado);
 				dispose();
 			}
 		});
